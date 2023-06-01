@@ -24,8 +24,19 @@ h1 { font-size:120pt; text-align:right; color:#fafafa;
   <h1>Hello</h1>
   <h3>Request</h3>
   <pre>{$request}</pre>
+  <h4>request->url()</h4>
+  <pre>{$request->url()}</pre>
+  <h4>request->fullUrl()</h4>
+  <pre>{$request->fullUrl()}</pre>
+  <h4>request->path()</h4>
+  <pre>{$request->path()}</pre>
   <h3>Response</h3>
   <pre>{$response}</pre>
+  <h4>response->status()</h4>
+  <pre>{$response->status()}</pre>
+  <h4>response->content() when no setting</h4>
+  <pre>{$response->content()}</pre>
+
 </body>
 </html>
 EOF;
